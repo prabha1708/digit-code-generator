@@ -1,0 +1,64 @@
+body {
+  font-family:"Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background-image: image("https://tse2.mm.bing.net/th?id=OIP.t9jsghG9LEbrLwPPfgPVHgHaHa&pid=Api&P=0&h=180");
+}
+
+.generator-container {
+  background-color: #deeaf7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  border: 3px dotted;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2e97f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+span {
+  color: #14191d;
+  font-weight: bold;
+}
